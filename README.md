@@ -1,8 +1,5 @@
 # My Personal MERN Stack Portfolio
 
-<p align="center">
-  <img src="https://munna-scriptz.vercel.app/preview.png" alt="Portfolio Preview" width="700" />
-</p>
 
 <p align="center">
   A modern, animated, and performance-focused developer portfolio built with React and motion-first design principles.
@@ -167,11 +164,8 @@ npm run dev
 
 Feel free to reach out for collaboration or feedback:
 
-* **Portfolio:** [https://munna-scriptz.vercel.app](https://munna-scriptz.vercel.app)
-* **Instagram:** [https://www.instagram.com/rexon.notfr/](https://www.instagram.com/rexon.notfr/)
-* **Facebook:** [https://www.facebook.com/rexon.notfr](https://www.facebook.com/rexon.notfr)
-* **Linkdin:** [https://www.linkedin.com/in/munna-scriptz](https://www.linkedin.com/in/munna-scriptz)
-* **Email:** [munnascriptz@gmail.com](mailto:munnascriptz@gmail.com)
+* **Linkdin:** [https://www.linkedin.com/in/ansh-gupta-19342b299/](https://www.linkedin.com/in/ansh-gupta-19342b299/)
+* **Email:** [anshgupta01745@gmail.com](mailto:anshgupta01745@gmail.com)
  
 ---
 
