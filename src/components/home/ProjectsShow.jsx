@@ -47,13 +47,13 @@ const ProjectsShow = () => {
             'GithubRepo' : 'https://github.com/Anshgupta017/my_first_repo/blob/main/voice%20command%20project/edva.py'
         },
         {
-            'ProjectImage' : nextonProject,
-            'ProjectName' : 'nexton e - commerce',
-            'Description' : 'Nexton is a sleek and modern e-commerce platform designed to offer a smooth shopping experience with dynamic product listings, variant selection, and responsive design. Built with React and crafted for performance and style',
-            'technologies' : [ReactIcon , TailwindCss , JsIcon , reduxIcon ,FigmaIcon , HtmlIcon , CssIcon],
+            'ProjectImage' :'Portfolio',
+            'ProjectName' : 'Personal Portfolio',
+            'Description' : 'A modern, responsive developer portfolio built to showcase my work as a software engineer and data analyst. The site highlights selected projects, technical skills, and tools across Java, React, Node.js, and data analysis workflows',
+            'technologies' : [React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, React Router, Git, GitHub, Vercel],
             'Direction': 'lg:flex-row-reverse',
             'AosDir' : 'fade-left',
-            'GithubRepo' : 'https://nexton-e-commerce-chi.vercel.app/'
+            'GithubRepo' : 'https://ansh-portfolio-q1kl.vercel.app/'
         },
         {
             'ProjectImage' : HectoCommerce,
