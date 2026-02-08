@@ -18,7 +18,7 @@ import JsIcon from '../../assets/images/JsIcon.jpg'
 import HtmlIcon from '../../assets/images/HtmlIcon.svg'
 import CssIcon from '../../assets/images/CssIcon.svg'
 import Bootstrap from '../../assets/images/BootStrapIcon.svg'
-import project1 from '../../assets/images/project1.png'
+import projects1 from '../../assets/images/projects1.png'
 import projects2 from '../../assets/images/projects2.png'
 import projects3 from '../../assets/images/projects3.png'
 
@@ -41,7 +41,7 @@ const ProjectsShow = () => {
     const MyProjects = [
 
         {
-            'ProjectImage' : project1,
+            'ProjectImage' : projects1,
             'ProjectName' : 'Nivedita.AI',
             'Description' : 'Developed an intelligent response system capable of understanding user queries and generating context-aware replies.',
             'technologies' : [python],
