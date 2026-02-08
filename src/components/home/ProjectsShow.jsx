@@ -18,7 +18,9 @@ import JsIcon from '../../assets/images/JsIcon.jpg'
 import HtmlIcon from '../../assets/images/HtmlIcon.svg'
 import CssIcon from '../../assets/images/CssIcon.svg'
 import Bootstrap from '../../assets/images/BootStrapIcon.svg'
-import project1 from '../../assets/images/project1.png'
+import projects2 from '../../assets/images/projects2.png'
+import projects3 from '../../assets/images/projects3.png'
+
 // -----other Import 
 import Magnet from '../effects/Magnet'
 import BlurText from '../effects/BlurText'
@@ -47,7 +49,7 @@ const ProjectsShow = () => {
             'GithubRepo' : 'https://github.com/Anshgupta017/my_first_repo/blob/main/voice%20command%20project/edva.py'
         },
         {
-            'ProjectImage' :'Portfolio',
+            'ProjectImage' :'projects2',
             'ProjectName' : 'Personal Portfolio',
             'Description' : 'A modern, responsive developer portfolio built to showcase my work as a software engineer and data analyst. The site highlights selected projects, technical skills, and tools across Java, React, Node.js, and data analysis workflows',
             'technologies' : [React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, React Router, Git, GitHub, Vercel],
@@ -56,32 +58,24 @@ const ProjectsShow = () => {
             'GithubRepo' : 'https://ansh-portfolio-q1kl.vercel.app/'
         },
         {
-            'ProjectImage' : HectoCommerce,
-            'ProjectName' : 'Hecto E-Commerce',
-            'Description' : 'The Hecto E-Commerce project is a responsive 15-page website showcasing stylish furniture with a clean, user-friendly interface. Built with React.js, Tailwind CSS, Redux, and Firebase, it delivers a seamless shopping experience with smooth navigation, interactive components, and API integrations, highlighting advanced web development skills.',
-            'technologies' : [ReactIcon , TailwindCss , JsIcon , reduxIcon , FigmaIcon , HtmlIcon , CssIcon],
+            'ProjectImage' : projects3,
+            'ProjectName' : 'Sorting Algovisualizer',
+            'Description' : 'A desktop-based Sorting Algorithm Visualizer built with JavaFX that demonstrates how popular sorting algorithms (like Bubble, Selection, Insertion, etc.) work in real time through animated bars and step-by-step transitions.',
+            'technologies' : [Java, JavaFX],
             'Direction': 'lg:flex-row',
             'AosDir' : 'fade-right',
-            'GithubRepo' : 'https://hecto-e-commerce.vercel.app/'
+            'GithubRepo' : 'https://github.com/Anshgupta017/sorting_algovisualizers'
         },
         {
             'ProjectImage' : noteProject,
-            'ProjectName' : 'Eclipse Note App',
-            'Description' : 'A responsive Note App built entirely with React JS, Tailwind CSS, and Firebase Realtime Database, featuring secure authentication, clean UI, and smooth note management. It includes create, edit, delete, and recover from bin options with real-time data sync.',
-            'technologies' : [JsIcon ,FigmaIcon ,Bootstrap, HtmlIcon , CssIcon],
+            'ProjectName' : 'Medicine Expiry & Donation Tracker',
+            'Description' : 'Users can log medicines they have at home → system tracks expiry dates. Near-expiry medicines can be donated to NGOs/hospitals',
+            'technologies' : [Java , Spring Boot, MySQL],
             'Direction': 'lg:flex-row-reverse',
             'AosDir' : 'fade-left',
-            'GithubRepo' : 'https://note-app-pi-flame.vercel.app/'
-        },
-        {
-            'ProjectImage' : canvixProject,
-            'ProjectName' : 'Canvix Agency',
-            'Description' : 'Canvix Agency is a full multi-page website built with React JS and Tailwind CSS, designed for agencies to showcase services, portfolio, team, testimonials, blog, and contact. It features polished visuals,smooth transitions. Fully responsive across all devices, it highlights professionalism and strong content structure and usability.',
-            'technologies' : [JsIcon ,FigmaIcon, Bootstrap , HtmlIcon , CssIcon],
-            'Direction': 'lg:flex-row',
-            'AosDir' : 'fade-right',
-            'GithubRepo' : 'https://canvix-agency.vercel.app/'
-        },
+            'GithubRepo' : 'https://github.com/Anshgupta017/Medicine_expiry_and_donation'
+        }
+       
     ]
   return (
 
