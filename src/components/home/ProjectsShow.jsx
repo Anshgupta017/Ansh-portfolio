@@ -21,7 +21,12 @@ import Bootstrap from '../../assets/images/BootStrapIcon.svg'
 import projects1 from '../../assets/images/projects1.png'
 import projects2 from '../../assets/images/projects2.png'
 import projects3 from '../../assets/images/projects3.png'
-
+import GitHub from '../../assets/images/github.png'
+import SpringBoot from '../../assets/images/springIcon.svg'
+import Vercel from '../../assets/images/vercel.svg'
+import Java from '../../assets/images/javaIcon.png'
+import MySQL from '../../assets/images/mysql.svg'
+import Medicine from '../../assets/images/Medicine.png'
 // -----other Import 
 import Magnet from '../effects/Magnet'
 import BlurText from '../effects/BlurText'
@@ -50,10 +55,10 @@ const ProjectsShow = () => {
             'GithubRepo' : 'https://github.com/Anshgupta017/my_first_repo/blob/main/voice%20command%20project/edva.py'
         },
         {
-            'ProjectImage' :'projects2',
+            'ProjectImage' : projects2,
             'ProjectName' : 'Personal Portfolio',
             'Description' : 'A modern, responsive developer portfolio built to showcase my work as a software engineer and data analyst. The site highlights selected projects, technical skills, and tools across Java, React, Node.js, and data analysis workflows',
-            'technologies' : [React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, React Router, Git, GitHub, Vercel],
+            'technologies' : [ReactIcon, JsIcon, HtmlIcon, CssIcon, TailwindCss , GitHub, Vercel, NextJsIcon, FigmaIcon],
             'Direction': 'lg:flex-row-reverse',
             'AosDir' : 'fade-left',
             'GithubRepo' : 'https://ansh-portfolio-q1kl.vercel.app/'
@@ -62,16 +67,16 @@ const ProjectsShow = () => {
             'ProjectImage' : projects3,
             'ProjectName' : 'Sorting Algovisualizer',
             'Description' : 'A desktop-based Sorting Algorithm Visualizer built with JavaFX that demonstrates how popular sorting algorithms (like Bubble, Selection, Insertion, etc.) work in real time through animated bars and step-by-step transitions.',
-            'technologies' : [Java, JavaFX],
+            'technologies' : [Java ],
             'Direction': 'lg:flex-row',
             'AosDir' : 'fade-right',
             'GithubRepo' : 'https://github.com/Anshgupta017/sorting_algovisualizers'
         },
         {
-            'ProjectImage' : noteProject,
+            'ProjectImage' : Medicine,
             'ProjectName' : 'Medicine Expiry & Donation Tracker',
             'Description' : 'Users can log medicines they have at home → system tracks expiry dates. Near-expiry medicines can be donated to NGOs/hospitals',
-            'technologies' : [Java , Spring Boot, MySQL],
+            'technologies' : [Java , SpringBoot, MySQL],
             'Direction': 'lg:flex-row-reverse',
             'AosDir' : 'fade-left',
             'GithubRepo' : 'https://github.com/Anshgupta017/Medicine_expiry_and_donation'
