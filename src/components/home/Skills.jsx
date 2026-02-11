@@ -2,7 +2,44 @@ import React from 'react'
 import DecayCard from '../effects/DecayCard'
 import ScrollFloat from '../effects/ScrollFloat'
 
+// ---- icons import ----
+import GitHub from '../../assets/images/github.png'
+import SpringBoot from '../../assets/images/springIcon.svg'
+import Java from '../../assets/images/javaIcon.png'
+import MySQL from '../../assets/images/mysql.svg'
+import PandasIcon from '../../assets/images/pandas.svg'
+import MatplotlibIcon from '../../assets/images/MatplotlibIcon.svg'
+import PowerBIIcon from '../../assets/images/PowerBIIcon.svg'
+import ExcelIcon from '../../assets/images/ExcelIcon.svg'
+import VscodeIcon from '../../assets/images/VscodeIcon.svg'
+import ReactIcon from '../../assets/images/react.svg'
+import NextJsIcon from '../../assets/images/NextJsIcon.svg'
+import TailwindCss from '../../assets/images/TailwindCssIcon.svg'
+import JsIcon from '../../assets/images/JsIcon.jpg'
+import HtmlIcon from '../../assets/images/HtmlIcon.svg'
+import CssIcon from '../../assets/images/CssIcon.svg'
+import PythonIcon from '../../assets/images/python.svg'
+
 export const Skills = () => {
+
+  const skills = [
+    { icon: Java, name: 'Java' },
+    { icon: SpringBoot, name: 'Spring Boot' },
+    { icon: PythonIcon, name: 'Python' },
+    { icon: PandasIcon, name: 'Pandas' },
+    { icon: MatplotlibIcon, name: 'Matplotlib' },
+    { icon: PowerBIIcon, name: 'Power BI' },
+    { icon: ExcelIcon, name: 'Excel' },
+    { icon: HtmlIcon, name: 'HTML' },
+    { icon: CssIcon, name: 'CSS' },
+    { icon: JsIcon, name: 'JavaScript' },
+    { icon: ReactIcon, name: 'React' },
+    { icon: TailwindCss, name: 'Tailwind CSS' },
+    { icon: GitHub, name: 'GitHub' },
+    { icon: VscodeIcon, name: 'VS Code' },
+    { icon: MySQL, name: 'My SQL'},
+    {icon: NextJsIcon, name: 'Next Js'}
+  ]
   return (
     <>
       <section className='md:pt-20 pt-25'>
@@ -10,6 +47,7 @@ export const Skills = () => {
 
           {/* -------- Header -------- */}
           <div className="header">
+
             <div className='flex items-center justify-center font-poppins text-Primary font-medium lg:text-2xl text-lg'>
               <ScrollFloat
                 animationDuration={1}
@@ -33,36 +71,27 @@ export const Skills = () => {
                 SKILLS & TECHNICAL EXPERTISE
               </ScrollFloat>
             </div>
+
           </div>
 
           {/* -------- Desktop Skills -------- */}
           <div id='SkillItems' className='mt-20 hidden lg:grid grid-cols-4 gap-10'>
 
-            {[
-              { title: 'Java', desc: 'Core Java, OOP' },
-              { title: 'Spring Boot', desc: 'REST APIs, Backend' },
-              { title: 'JavaFX', desc: 'Desktop Applications' },
-              { title: 'Python', desc: 'Scripting & Analysis' },
-              { title: 'Pandas', desc: 'Data Cleaning & Handling' },
-              { title: 'Matplotlib', desc: 'Data Visualization' },
-              { title: 'Power BI', desc: 'Dashboards & Reports' },
-              { title: 'Excel', desc: 'Pivot, VLOOKUP, Analysis' },
-              { title: 'HTML', desc: 'Structure of Web Pages' },
-              { title: 'CSS', desc: 'Styling & Layouts' },
-              { title: 'JavaScript', desc: 'Logic & Interactivity' },
-              { title: 'React', desc: 'SPA Development' },
-              { title: 'Tailwind CSS', desc: 'Responsive UI Design' },
-              { title: 'GitHub', desc: 'Version Control' },
-              { title: 'VS Code', desc: 'Development Tool' },
-            ].map((skill, index) => (
+            {skills.map((skill, index) => (
               <DecayCard key={index} width={180} height={120}>
-                <div className='flex flex-col items-center gap-2 text-center'>
-                  <p className='text-[20px] font-poppins font-medium text-Primary'>
-                    {skill.title}
+                <div className='flex flex-col items-center justify-center h-full'>
+
+                  <img
+                    src={skill.icon}
+                    alt={skill.name}
+                    className='w-12 h-12 object-contain'
+                  />
+
+                  {/* optional: name below icon */}
+                  <p className='text-sm mt-2 text-borderCol'>
+                    {skill.name}
                   </p>
-                  <p className='text-sm text-borderCol'>
-                    {skill.desc}
-                  </p>
+
                 </div>
               </DecayCard>
             ))}
@@ -70,32 +99,27 @@ export const Skills = () => {
           </div>
 
           {/* -------- Mobile Skills -------- */}
-          <div className='mt-16 lg:hidden grid grid-cols-2 gap-6 text-center'>
-            {[
-              'Java',
-              'Spring Boot',
-              'JavaFX',
-              'Python',
-              'Pandas',
-              'Matplotlib',
-              'Power BI',
-              'Excel',
-              'HTML',
-              'CSS',
-              'JavaScript',
-              'React',
-              'Tailwind CSS',
-              'GitHub',
-              'VS Code',
-            ].map((skill, index) => (
+          <div className='mt-16 lg:hidden grid grid-cols-3 gap-6 text-center'>
+
+            {skills.map((skill, index) => (
               <div
                 key={index}
-                data-aos="fade-up"
-                className='border border-borderCol rounded-lg py-4 font-poppins text-Primary font-medium'
+                className='border border-borderCol rounded-lg py-6 flex flex-col items-center justify-center'
               >
-                {skill}
+
+                <img
+                  src={skill.icon}
+                  alt={skill.name}
+                  className='w-10 h-10 object-contain'
+                />
+
+                <p className='text-xs mt-2'>
+                  {skill.name}
+                </p>
+
               </div>
             ))}
+
           </div>
 
         </div>
