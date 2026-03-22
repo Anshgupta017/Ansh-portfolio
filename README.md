@@ -1,4 +1,4 @@
-# My Personal MERN Stack Portfolio
+# My Personal Portfolio
 
 
 <p align="center">
@@ -9,7 +9,7 @@
 
 ## Overview
 
-This is my personal developer portfolio designed to present my work, skills, and experience in a clean and engaging way. The focus is on smooth user experience, thoughtful animations, and a responsive layout that works seamlessly across devices. Every section is intentionally crafted to reflect my approach to frontend development and UI/UX design.
+This is my personal developer portfolio designed to present my work, skills, and experience in a clean and engaging way. The focus is on smooth user experience, thoughtful animations, and a responsive layout that works seamlessly across devices. Every section is intentionally crafted to reflect my approach to frontend development and projects.
 
 ---
 
@@ -133,7 +133,7 @@ This portfolio was built to:
 
 * Showcase my frontend development skills
 * Highlight selected projects and real-world work
-* Demonstrate my interest in animations and UI/UX design
+* Demonstrate my interest in software development and data analysis 
 * Establish a professional online presence
 * Improve personal branding with SEO-friendly structure and content
 
@@ -141,22 +141,9 @@ This portfolio was built to:
 
 ## Live Preview
 
-* **Website:** [https://munna-scriptz.vercel.app](https://munna-scriptz.vercel.app)
+* **Website:** [https://ansh-portfolio-q1kl.vercel.app/]((https://ansh-portfolio-q1kl.vercel.app)
 
 This portfolio is indexed on Google and appears in top search results under **"Munna Scriptz"**, with SEO best practices applied for performance, accessibility, and discoverability.
-
----
-
-## Installation
-
-To run this project locally:
-
-```bash
-git clone https://github.com/Munna-Scriptz/Portfolio.git
-cd Portfolio
-npm install
-npm run dev
-```
 
 ---
 
