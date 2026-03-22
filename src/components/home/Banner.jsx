@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router';
-import PortfolioPic from "../../assets/images/whatsapp.JPEG"
+import PortfolioPic from "../../assets/images/whatsapp.jpeg"
 // -----Animation Npm 
 import { TypeAnimation } from 'react-type-animation';
 import Magnet from '../effects/Magnet'
