@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router';
-import PortfolioPic from "../../assets/images/ansh.JPG"
+import PortfolioPic from "../../assets/images/whatsapp.JPEG"
 // -----Animation Npm 
 import { TypeAnimation } from 'react-type-animation';
 import Magnet from '../effects/Magnet'
@@ -100,7 +100,7 @@ const Banner = () => {
             <img
   src={PortfolioPic}
   alt="Ansh Gupta profile photo"
-  className="w-[320px] h-[420px] object-cover"
+  className="w-[550px] h-[650px] object-cover ml-[30px] relative -top-20"
 />
 
             </div>
