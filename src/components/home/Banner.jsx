@@ -24,9 +24,9 @@ const Banner = () => {
               <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="2300" data-aos-easing="ease-in-sine">
               <TypeAnimation
   sequence={[
-    'A Java Developer.',
+    'Data Analyst.',
     1000,
-    'A Data Analyst.',
+    'Business Analyst.',
     1000,
   ]}
   className='text-[25px] lg:text-[38px] text-second'
@@ -36,7 +36,7 @@ const Banner = () => {
 />
 
               </div>
-              <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="3000" data-aos-easing="ease-in-sine" className='font-medium font-poppins text-[#2d2e30be] mt-6 lg:mt-4 text-[12px] lg:text-sm md:w-[435px] w-full'><BlurText text="Passionate about software development and data analytics, I enjoy building practical solutions and continuously learning new technologies." delay={350} animateBy="words" direction="top" /></div>
+              <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="3000" data-aos-easing="ease-in-sine" className='font-medium font-poppins text-[#2d2e30be] mt-6 lg:mt-4 text-[12px] lg:text-sm md:w-[435px] w-full'><BlurText text="Passionate About Data Analytics, Business Intelligence, and Solving Real-World Problems Through Data." delay={350} animateBy="words" direction="top" /></div>
               {/* -----Text Button------- */}
               <div className='mt-6 flex items-center gap-3'>
                 <Magnet padding={10} disabled={false} magnetStrength={5}>
