@@ -47,7 +47,7 @@ const Banner = () => {
                 <Magnet padding={10} disabled={false} magnetStrength={5}>
                 <a
   href="/resume.pdf"
-  download="Ansh_resume_sw.pdf"
+  download="ansh2_data.pdf"
   data-aos="fade-right"
   data-aos-duration="2600"
   data-aos-delay="3000"
@@ -60,7 +60,7 @@ const Banner = () => {
                 </Magnet>
                 <Magnet padding={10} disabled={false} magnetStrength={5}>
     <a
-      href="/Ansh_resume_sw.pdf"
+      href="/ansh2_data.pdf"
       target="blank"
       rel="noopener noreferrer"
       data-aos="fade-right"
